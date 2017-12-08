@@ -26,5 +26,9 @@ That sketch does various things, read the inline comments - depending on what yo
 
 The sketch for creating the scatterplot on page 7 can be found under /zPatchViz
 
+The sketch for creating the .arff files can be found at /data/datasplitter (though you'll have to manually create your headers)
+
 I used Processing 3.2.4 
 
+### ToDo
+All sketches use the data-logging function I wrote for the experiment. It was designed to be idiot-proof, but not fast. Needs to be rewritten for all the other sketches that write a ton of data to files.
